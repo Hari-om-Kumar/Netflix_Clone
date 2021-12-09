@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden ;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+.root{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: radial-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url(images/IN-en-20211206-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+}
+.navbar{
+    padding-top: 0.92%;
+    padding-left: 3.7vw;
+    padding-right: 4vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.img-logo{
+    width: 12%;
+    color: #e50914;
+}
+
+.sign-btn{
+    background-color: #e50914;
+    color: white;
+    padding: 8px 17px;
+    border: 1px solid #e50914;
+    border-radius: 2px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: fit-content;
+}
+.lang-btn{
+    width: fit-content;
+    text-decoration: none;
+    border: 1px solid #aaa;
+    cursor: pointer;
+    padding: 8px 4px;
+    font-size: 1rem;
+    border-radius: 2px;
+    color: #fff;
+    background: rgba(0,0,0,0.4);
+    margin-right: 30px;
+
+}
+/* .fa-globe{
+    padding-right: 3px;
+}
+.fa-caret-down{
+    padding-left: 3px;
+} */
+.main-container{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-titles-container{
+    width: 50%;
+    color: white;
+    text-align: center;
+}
+.main-title{
+    font-size: 3.6em;
+    font-weight: 550;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    line-height: 1.1;
+    
+}
+.main-subtitle{
+    line-height: 0.8;
+    padding-top: 0px;
+    font-size: 1.7em;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.para{
+    font-size: 1.2em;
+}
+.main-email-container{
+    width: 55%;
+    height: fit-content;
+    border-radius: 1px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-email-container-input{
+    outline: none;
+    border: none;
+
+    padding: 20px 10px;
+    font-size: 1em;
+}
+.btn-start{
+    cursor: pointer;
+    border-radius: 1px;
+    padding: 18px 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: fit-content;
+    background-color: #e50914;
+    color: white;
+    font-size: 1.87em;
+    text-transform: initial;
+    text-align: center;
+}
+
+.btn-start:hover{
+    background-color: #ff0b18;
+}
